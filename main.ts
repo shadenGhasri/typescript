@@ -1,3 +1,8 @@
 export{}
-let user = "shaden";
-console.log(user)
+type Card = {
+    id: number;
+    name: string;
+    image: string;
+    order: number;
+    isFlipped: boolean;
+  }
