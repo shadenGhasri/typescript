@@ -1,4 +1,4 @@
-
+export
 const cards = [
     { id: 1, name: "aurelia", image: aurelia },
     { id: 2, name: "aurelia", image: aurelia },
