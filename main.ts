@@ -14,10 +14,20 @@ const cards = [
     { id: 12, name: "react", image: react },
     { id: 12, name: "react", image: react },
   ];
+
+  const user = {
+    firstName: "Angela",
+    lastName: "Davis",
+    role: "Professor",
+  }
+   
+  console.log(user.name)
   
   export const cardsData = cards.map((card) => ({
     ...card,
     order: Math.floor(Math.random() * 12),
     isFlipped: false,
   }));
+
+//   ارای تجربه کاری در استفاده از Web Serviceها (REST, JSON and APIs)
   
