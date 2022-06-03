@@ -42,6 +42,15 @@ function verify(result: Result) {
     console.log("Failed")
   }
 }
+
+function verify(result) {
+  if (result === "pass") {
+    console.log("Passed")
+  } else {
+    console.log("Failed")
+  }
+}
+ 
   
   export const cardsData = cards.map((card) => ({
     ...card,
