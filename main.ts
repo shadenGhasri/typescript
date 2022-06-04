@@ -73,3 +73,9 @@ function verify(result: Result) {
 
 //   ارای تجربه کاری در استفاده از Web Serviceها (REST, JSON and APIs)
   
+
+/** @type {number} */
+var x;
+ 
+x = 0; // OK
+x = false; // OK?!
