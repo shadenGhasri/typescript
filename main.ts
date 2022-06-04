@@ -51,6 +51,8 @@ function verify(result) {
   }
 }
  
+const anExampleVariable = "Hello World"
+console.log(anExampleVariable)
 
 type Result = "pass" | "fail"
  
