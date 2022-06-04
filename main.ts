@@ -79,3 +79,11 @@ var x;
  
 x = 0; // OK
 x = false; // OK?!
+
+// @ts-check
+/** @type {number} */
+var x;
+
+x = 0; // OK
+// @ts-expect-error
+x = false; // Not OK
