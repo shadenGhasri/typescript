@@ -1,10 +1,8 @@
 export
 const cards = [
     { id: 1, name: "aurelia", image: aurelia }
-
     { id: 6, name: "ember", image: ember },
     { id: 7, name: "vue", image: vue },
-    { id: 8, name: "vue", image: vue },
     { id: 9, name: "backbone", image: backbone },
     { id: 11, name: "react", image: react },
   ];
