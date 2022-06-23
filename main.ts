@@ -1,10 +1,8 @@
 export
 const cards = [
     { id: 1, name: "aurelia", image: aurelia },
-    { id: 2, name: "aurelia", image: aurelia },
     { id: 3, name: "angular", image: angular },
     { id: 4, name: "angular", image: angular },
-    { id: 5, name: "ember", image: ember },
     { id: 6, name: "ember", image: ember },
     { id: 7, name: "vue", image: vue },
     { id: 8, name: "vue", image: vue },
