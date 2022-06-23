@@ -12,7 +12,7 @@ const cards = [
     { id: 10, name: "backbone", image: backbone },
     { id: 11, name: "react", image: react },
     { id: 12, name: "react", image: react },
-    { id: 12, name: "react", image: react },
+    { id: 13, name: "react", image: react },
   ];
 
   const user = {
