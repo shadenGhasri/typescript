@@ -6,10 +6,7 @@ const cards = [
     { id: 7, name: "vue", image: vue },
     { id: 8, name: "vue", image: vue },
     { id: 9, name: "backbone", image: backbone },
-    { id: 10, name: "backbone", image: backbone },
     { id: 11, name: "react", image: react },
-    { id: 12, name: "react", image: react },
-    { id: 13, name: "react", image: react },
   ];
 
   const user = {
