@@ -30,17 +30,18 @@ for(let e of person.hobbies){
     
 }
 
-var Role;
-(function (Role) {
-    Role["ADMIN"] = "ADMIN";
-    Role[Role["READ_ONLY"] = 100] = "READ_ONLY";
-    Role["AUTHOR"] = "AUTHOR";
-})(Role || (Role = {}));
-;
+enum Role { ADMIN, READ_ONLY, AUTHOR };
 var person2 = {
     name: 'Maximilian',
     age: 30,
     hobbies: ['Sports', 'Cooking'],
     role: Role.ADMIN
 };
+console.log(person2.role);
+
+enum Cars {FORD = 8,VOLVO,BMW}
+let car : Cars = Cars.VOLVO
+console.log(car);
+
+
 
